@@ -1,0 +1,31 @@
+N = { 1,2,3,4,5....} Set of positive integers
+
+Z = { 0,+/- 1,+/-2,+/-3,......} Set of integers
+
+The rational numbers are denoted by Q and the real numbers by R
+
+N ⊂ Z ⊂ Q ⊂ R ( Natural numbers, Integers, Rational numbers, Real numbers )
+
+We use the following rules :
+
+If a X b = 0, => a = 0 or b = 0 , a or b = 0
+
+Real Numbers can be compared : 1 < √2 < 2 
+
+α ≥ β or α < β
+
+A set M of real numbers is called bounded from below if there is real number γ such that all elements of M are greater than
+this γ. We say that M is bounded from below by γ. 
+
+From below, the set of positive integers is bounded from below by 0, but the set of even integers is not bounded from below.
+
+An important property of the integers is the fact that every set of integers that is bounded from below contains a smallest 
+element. Likewise, every set of integers that is bounded from above contains a greatest element. 
+
+For any real number we write : [α]=max⁡{b ∈Z:b≤ α} , hence [α] is the greatest integer, which is less than or equal to α
+And this number exists because the set {b ∈Z:b≤ α} is bounded from above.
+
+[ 3.43 ] = 3 and [-3.43] = -4
+
+Finally, we need induction. If a statement, which depends on a positive integer n is true for n = 1 and if the truth for any
+integer m with 1 <= m <= n ( or just n) ==> the truth for n + 1, then the statement is true for any positive integer n.
