@@ -43,7 +43,7 @@ If a is replaced by a mod b , then we say that a is reduced modulo b
 Example :
 
 a = 133 and b = 21 , then q = 6 and r = 7, so 133 mod 21 = 7.
-Likewise, we have thatn -50 mod 8 = 6
+Likewise, we have that -50 mod 8 = 6
 
 
 
