@@ -1,0 +1,49 @@
+We get some definitions in order:
+
+We say that a divides n if there is an integer b with n = ab
+
+If a divides n, then a is called the divisor of n, n is called the multiple of a, and we write a | n. We also say that n
+is divisible by a. If a is not a divisor of n, then we write a ∤ n
+
+Examples :
+
+13 | 182 as 182 = 14 * 13 and likewise we have -5 | 30 because 30 = (-6) * (-5) 
+The divisors of 30 are ∓1,∓2,∓3,∓5,∓6,∓10,∓15,∓30
+
+Any integer a divides 0 because 0 = a * 0. The only integer that is divisible by 0 is 0 because 0 is 0 because a = 0 * b 
+implies a = 0
+
+Theorems:
+
+1] If a | b and b | c , then a | c
+2] If a | b, then ac | bc for all c
+3] If c | a and c | b , then c | da + eb for all d and e
+4] If a | b and b ≠ 0, then |a| <= |b|
+5] If a | b and b | a, then |a| = |b|
+
+Proof:
+
+1] If a | b and b | c , then there are f, g with b = af and c = bg. This implies c = bg = (af)g = a(fg)
+2] If a | b , then there is f with b = af. Hence bc = (af)c = f(ac)
+3] If c | a and c | b , then there is f, g with a = fc and b = gc. This implies that da + eb = dfc + egc = (df + eg) c
+4] If a | b and b ≠ 0, then there is f ≠ 0 with b = af. This implies that | b | = | a f | >= |a|
+5] Suppose that a | b and b | a. If a = 0, then b = 0 and vice versa. If a ≠ 0 and b ≠ 0, then 4. implies |a| <= |b| and 
+   |b| <= |a| and hence |a| = |b|
+   
+Theorem :
+
+If a and b are integers , b > 0 then there are uniquely determined integers q and r such that a = qb + r and 0 <= r < b,
+namely q = [ a / b].
+Conversely, q = [a / b] and r = a - bq satisfy this assertion
+
+The integer q is called the quotient and r the remainder of the division of a by b. We write r = a mod b.
+
+If a is replaced by a mod b , then we say that a is reduced modulo b
+
+Example :
+
+a = 133 and b = 21 , then q = 6 and r = 7, so 133 mod 21 = 7.
+Likewise, we have thatn -50 mod 8 = 6
+
+
+
